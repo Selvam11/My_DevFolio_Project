@@ -1,0 +1,335 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #f5f5f5;
+    font-family: "Poppins", Arial, sans-serif !important;
+    /* font-family: var(--bs-body-font-family); */
+}
+
+.header {
+    background: #023b6d;
+    height: 44px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 5px 0px 0px 8px;
+    /* position: sticky;
+    top: 0% !important; */
+    z-index: 1;
+}
+
+.header .logo {
+    width: 200px;
+}
+
+.header .head-comput {
+    color: white;
+    margin: 5px 25px;
+    font-size: 20px;
+    display: flex;
+}
+
+.header .head-comput a {
+    color: white;
+}
+
+.header .head-comput div {
+    margin: 0px 9px;
+    font-size: 26px;
+    margin-top: -6px;
+}
+
+.header .head-comput div i {
+    font-size: 29px;
+}
+
+.head-center {
+    position: absolute;
+    left: 49%;
+    display: flex;
+    color: white;
+}
+
+.head-center i {
+    padding: 10px;
+    color: #cecece;
+}
+
+.head-center a {
+    text-decoration: none;
+}
+
+.head-center a h2 {
+    font-size: 22px;
+    padding: 4px;
+    color: #fff;
+    font-weight: 900;
+}
+
+
+
+.head-last {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    background: #00a6eb;
+    padding: 4px 25px 4px 24px;
+    margin-top: -3px;
+}
+
+.head-last i {}
+
+.head-last a {
+
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.head-last p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*-----------   header   end      ----------------- */
+
+/*-----------   navbar   st      ----------------- */
+
+.navbar {
+    background: #000000e6;
+    display: flex;
+
+    padding: 19px 0px 42px 1px;
+    position: sticky;
+    top: 0% !important;
+    z-index: 2;
+}
+
+.navbar h2 {
+    position: absolute;
+    left: 13%;
+    font-size: 27px;
+    font-weight: 900;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.navbar .nav-menu {
+    position: absolute;
+    right: 5%;
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+
+.navbar .nav-menu .menu {
+    list-style: none;
+    display: flex;
+    z-index: 1;
+}
+
+.navbar .nav-menu .menu li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+.navbar .nav-menu .menu li ul {
+    list-style: none;
+    background-color: #fff;
+    display: none;
+    border: 1px solid black;
+}
+
+.navbar .nav-menu .menu li ul a {
+    text-decoration: none;
+    color: #000;
+    padding: 13px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+.navbar .nav-menu .menu li .dropdown li:hover {
+    background-color: crimson;
+    color: #fff !important;
+}
+
+.menu li:nth-child(6):hover {
+    .dropdown {
+        display: block;
+    }
+}
+
+.navbar .nav-menu .menu .dropdown .ff {
+    list-style: none;
+    position: absolute;
+    transform: translateX(-145px);
+    background: #fff;
+    border: 1px solid black;
+    display: none;
+
+}
+
+.navbar .nav-menu .menu .dropdown .ff a {
+    color: #000;
+}
+
+.navbar .nav-menu .dropdown li:nth-child(2):hover {
+    .ff {
+        display: block;
+    }
+}
+
+/*-----------   navbar   end      ----------------- */
+
+
+/*-----------   background   st      ----------------- */
+
+.banner {
+    background-image: url(./Images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    color: #fff;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.banner h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner h4 {
+    font-size: 60px;
+    font-weight: 500;
+
+}
+
+/*-----------   background   end      ----------------- */
+
+
+/*-----------   about   st      ----------------- */
+/* 
+.about {}
+
+.about .about-info {
+    margin: 100px 120px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    background: #fff;
+
+}
+
+.about .about-info .about-divide-1 {
+    height: 100%;
+    width: 50%;
+
+
+}
+
+.about-men {
+    padding: 20px;
+    display: flex;
+}
+
+.about .about-info .about-divide-1 .my-img {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.about .about-info .about-divide-1 .about-my-info {
+    padding: 20px;
+    font-size: 19px;
+}
+
+.about .about-info .about-divide-1 .about-my-info p {
+    font-weight: 600;
+    color: black;
+    padding: 6px;
+}
+
+.about .about-info .about-divide-1 .about-my-info span {
+    font-weight: 100;
+    color: #4e4e4e;
+}
+
+.about-divide-1 h2 {
+    padding: 0px 0px 0px 25px;
+}
+
+
+
+
+.about .about-info .about-divide-1 .percentage {
+    padding: 20px;
+}
+
+.about .about-info .about-divide-1 .percentage h5 {
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.about .about-info .about-divide-1 .percentage p {
+    background: #cde1f8;
+    height: 21px;
+    width: 100%;
+}
+
+.about .about-info .about-divide-1 .percentage p .HTML {
+    height: 21px;
+    position: absolute;
+    background: #0078ff;
+    width: 34%;
+}
+
+.about .about-info .about-divide-1 .percentage p .CSS {
+    position: absolute;
+    height: 21px;
+    background: #0078ff;
+    width: 37%;
+}
+
+.about .about-info .about-divide-1 .percentage p .JAVASCRIPT {
+    position: absolute;
+    height: 21px;
+    background: #0078ff;
+    width: 29%;
+}
+
+/* divider */
+
+
+/* .about .about-info .about-divide-2 {
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+}
+
+.about .about-info .about-divide-2 h3 {
+    font-size: 39px;
+    padding: 30px;
+    color: black;
+}
+
+
+.about .about-info .about-divide-2 p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #4e4e4e;
+    padding: 15px 0px;
+}  */
+
+
+/*-----------   about   end      ----------------- */

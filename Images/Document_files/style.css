@@ -1,0 +1,166 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--bs-body-font-family)!important;
+}
+
+.header{
+    background: #023b6d;
+    height: 44px;
+    display: flex;
+    width: 100%;
+    padding: 5px 0px 0px 8px;
+}
+
+.header .logo{
+    width: 200px;
+}
+.header .head-comput{
+    color: white;
+    margin: 5px 25px;
+    font-size: 20px;
+    display: flex;
+}
+.header .head-comput a{
+    color: white;
+}
+.header .head-comput div{
+    margin: 0px 9px;
+    font-size: 26px;
+    margin-top: -6px;
+}
+.header .head-comput div i{
+    font-size: 29px;
+}
+.head-center{
+    position: absolute;
+    left: 49%;
+    display: flex;
+    color: white;
+}
+.head-center i{
+    padding: 10px;
+    color: #cecece;
+}
+.head-center a {
+    text-decoration: none;
+}
+.head-center a h2{
+    font-size: 22px;
+    padding: 4px;
+    color: #fff;
+    font-weight: 900;
+}
+
+
+
+.head-last{
+    display: flex;
+    position: absolute;
+    right: 0%;
+    background: #00a6eb;
+    padding: 4px 25px 4px 24px;
+    margin-top: -3px;
+}
+.head-last i{
+
+}
+.head-last a{
+
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+.head-last p{
+    font-size: 16px;
+    font-weight: 600;
+}
+/*-----------   header   end      ----------------- */
+
+/*-----------   navbar   st      ----------------- */
+
+.navbar{
+    background: #000000e6;
+    display: flex;
+    padding: 21px;
+    height:70px;
+    position: static;
+}
+.navbar h2{
+    position: absolute;
+    left: 13%;
+    font-size: 27px;
+    font-weight: 900;
+    cursor: pointer;
+    color: #fff;
+
+}
+.navbar .nav-menu{
+    position: absolute;
+    right: 5%;
+    display: flex;
+}
+.navbar .nav-menu .menu{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-menu .menu li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+.navbar .nav-menu .menu li ul{
+    list-style: none;
+    background-color: #fff;
+    display: none;
+    border:  1px solid black;
+}
+
+.navbar .nav-menu .menu li ul a{
+    text-decoration: none;
+    color: #000;
+    padding: 13px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+.navbar .nav-menu .menu li .dropdown li:hover{
+    background-color: crimson;
+    color: #fff!important;
+}
+.menu li:nth-child(6):hover {
+    .dropdown{
+        display: block;
+    }
+}
+
+.navbar .nav-menu .menu .dropdown .ff{
+    list-style: none;
+    position: absolute;
+    transform: translateX(-145px);
+    background: #fff;
+    border: 1px solid black;
+    display: none;
+
+}
+.navbar .nav-menu .menu .dropdown .ff a{
+    color: #000;
+}
+.navbar .nav-menu .dropdown li:nth-child(2):hover {
+    .ff{
+        display: block;
+    }
+}
+
+
+
+/*-----------   navbar   end      ----------------- */
+
+
+

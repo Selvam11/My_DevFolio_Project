@@ -1,0 +1,111 @@
+
+.about {}
+
+.about .about-info {
+    margin: 100px 120px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #fff;
+
+}
+
+/* .about .about-info .about-divide-1 {
+    height: 100%;
+    width: 50%;
+
+
+} */
+
+.about-men {
+    padding: 20px;
+    display: flex;
+}
+
+.about .about-info .about-divide-1 .my-img {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.about .about-info .about-divide-1 .about-my-info {
+    padding: 20px;
+    font-size: 19px;
+}
+
+.about .about-info .about-divide-1 .about-my-info p {
+    font-weight: 600;
+    color: black;
+    padding: 6px;
+}
+
+.about .about-info .about-divide-1 .about-my-info span {
+    font-weight: 100;
+    color: #4e4e4e;
+}
+
+.about-divide-1 h2 {
+    padding: 0px 0px 0px 25px;
+}
+
+
+
+
+.about .about-info .about-divide-1 .percentage {
+    padding: 20px;
+}
+
+.about .about-info .about-divide-1 .percentage h5 {
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.about .about-info .about-divide-1 .percentage p {
+    background: #cde1f8;
+    height: 21px;
+    width: 100%;
+}
+
+.about .about-info .about-divide-1 .percentage p .HTML {
+    height: 21px;
+    position: absolute;
+    background: #0078ff;
+    width: 34%;
+}
+
+.about .about-info .about-divide-1 .percentage p .CSS {
+    position: absolute;
+    height: 21px;
+    background: #0078ff;
+    width: 37%;
+}
+
+.about .about-info .about-divide-1 .percentage p .JAVASCRIPT {
+    position: absolute;
+    height: 21px;
+    background: #0078ff;
+    width: 29%;
+}
+
+/* divider */
+
+
+.about .about-info .about-divide-2 {
+    /* height: 100%;
+    width: 50%; */
+    padding: 20px;
+}
+
+.about .about-info .about-divide-2 h3 {
+    font-size: 39px;
+    padding: 30px;
+    color: black;
+}
+
+
+.about .about-info .about-divide-2 p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #4e4e4e;
+    padding: 15px 0px;
+}
